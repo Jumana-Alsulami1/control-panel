@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: sans-serif;
+  background-color: #eae5ec;
+  background-image:url("robot.jpg");
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+a{
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; 
+}
+
+.panel {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+} 
+.main-button {
+  background-color: #9ca6ec;
+  color: rgb(51, 52, 80);
+}
+
+.main-button:hover {
+  background-color: #f1a1e6;
+}
+
+.secondary-button {
+  background-color: #ccb0f7;
+  color: white;
+  margin: 0 10px;
+}
+
+.secondary-button:hover {
+  background-color: #f1a1e6;
+}
+
+.btn{
+  background-color: #a95bb1;
+}
+.btn a{
+  color: #eae5ec;
+}
